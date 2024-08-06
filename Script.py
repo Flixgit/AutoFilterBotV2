@@ -86,7 +86,7 @@ I can't find the <b>{}</b> in my database! 🥲
 
 <blockquote><b><a href="https://t.me/RARBGxFILES">𝗥𝗔𝗥𝗕𝗚 ⚡</a></b></blockquote>"""
 
-    FILE_CAPTION = """<b>{file_caption}</b>
+    FILE_CAPTION = """<b>{caption}</b>
 
     <blockquote><b><a href="https://t.me/RARBGxFILES">𝗥𝗔𝗥𝗕𝗚 ⚡</a></b></blockquote>
 
