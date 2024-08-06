@@ -1,8 +1,6 @@
 class script(object):
     
-    START_TXT = """<i>Hello 👻.</i>
-
-<blockquote><i>My Name Is {bot} 🎃.</i></blockquote>
+    START_TXT = """<blockquote><i>Hello {}.</i></blockquote>
 
 <i>I Can Provide Movies, Series, Anime, Documentry And More For You, Just Add Me In Your Gorup Or Join Our Group Or Just Search In The PM 😁</i>
 
