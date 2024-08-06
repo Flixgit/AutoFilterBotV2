@@ -1,6 +1,6 @@
 class script(object):
     
-    START_TXT = """<i>Hello {user} 👻.</i>
+    START_TXT = """<i>Hello 👻.</i>
 
 <blockquote><i>My Name Is {bot} 🎃.</i></blockquote>
 
