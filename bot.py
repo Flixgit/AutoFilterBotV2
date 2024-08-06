@@ -28,6 +28,13 @@ class Bot(Client):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats
+        client = MongoClient(DATABASE_URL, server_api=ServerApi('1'))
+        try:
+            client.admin.command('ping')
+            print("Pinged your deployment. You successfully connected to MongoDB!")
+        except Exception as e:
+            print("Something Went Wrong While Connecting To Database!" + e)
+            exit()
         await super().start()
         if os.path.exists('restart.txt'):
             with open("restart.txt") as file:
