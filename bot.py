@@ -10,6 +10,8 @@ from pyrogram import types
 import time, os
 from pyrogram.errors import FloodWait
 import asyncio
+from pymongo.mongo_client import MongoClient
+from pymongo.server_api import ServerApi
 
 class Bot(Client):
     def __init__(self):
